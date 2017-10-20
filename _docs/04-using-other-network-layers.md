@@ -14,8 +14,7 @@ Image pipeline 默认使用[HttpURLConnection](https://developer.android.com/tra
 [OkHttp](http://square.github.io/okhttp) 是一个流行的开源网络请求库。Image
 pipeline有一个使用OkHttp替换掉了Android默认的网络请求的补充。
 
-如果需要使用OkHttp,
-不要使用这个[下载](download-fresco.html)页面的gradle依赖配置，应该使用下面的依赖配置
+如果需要使用OkHttp,需要添加下面任意一种:
 
 For OkHttp2:
 
